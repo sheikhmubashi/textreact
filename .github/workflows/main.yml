@@ -31,5 +31,5 @@ jobs:
       - name: installing surge
         run: npm install --global surge
       - name: deploying using surge
-        run: surge ./ jdsfksfns.surge.sh --token ${{secrets.TESTREACT}}
+        run: surge ./build jdsfksfns.surge.sh --token ${{secrets.TESTREACT}}
         
